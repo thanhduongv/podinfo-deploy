@@ -1,0 +1,1 @@
+{"jobID":"2f11bff3-4a07-3af4-40eb-2ae8fc805cb3","spec":{"type":"policy","cause":{"Message":"","User":"thanh duong \u003cthanh.duongvan@nashtechglobal.com\u003e"},"spec":{"dev:deployment/metrics-demo":{"add":{"automated":"true"},"remove":null}}},"result":null}
