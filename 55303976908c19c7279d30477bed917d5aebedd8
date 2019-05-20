@@ -1,0 +1,1 @@
+{"jobID":"36776daa-bdb7-0386-c040-4972bd295e5a","spec":{"type":"policy","cause":{"Message":"","User":"thanh duong \u003cthanh.duongvan@nashtechglobal.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
