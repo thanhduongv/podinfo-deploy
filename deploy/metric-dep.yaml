@@ -5,7 +5,8 @@ metadata:
   name: metrics-demo
   namespace: dev
   annotations:
-    flux.weave.works/tag.metrics-demod: glob:*
+    flux.weave.works/automated: 'false'
+    flux.weave.works/tag.podinfod: glob:*
 spec:
   replicas: 4
   selector:
@@ -20,7 +21,7 @@ spec:
     spec:
       containers:
       - name: metrics-demod
-        image: quay.io/brice/metrics-demo:master
+        image: quay.io/brice/metrics-demo:v4-subscription-service
         # command:
         # - ./metrics-demo
         # - --port=3000
