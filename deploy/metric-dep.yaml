@@ -9,6 +9,8 @@ metadata:
 #     flux.weave.works/tag.podinfod: glob:*
 spec:
   replicas: 2
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: metrics-demo
